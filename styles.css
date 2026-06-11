@@ -676,45 +676,6 @@ p {
   grid-column: span 2;
 }
 
-.connector-preview {
-  display: block;
-  position: relative;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 8px 8px 0 0;
-}
-
-.connector-preview img {
-  position: absolute;
-  max-width: none;
-  height: auto;
-  aspect-ratio: auto;
-  object-fit: fill;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-}
-
-.connector-preview--multi img {
-  width: 150%;
-  left: -25%;
-  top: -12%;
-}
-
-.connector-preview--t img {
-  width: 205%;
-  left: -10%;
-  top: -120%;
-}
-
-.connector-preview--straight img {
-  width: 205%;
-  left: -96%;
-  top: -120%;
-}
-
 .accessory-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(340px, 1.18fr);
