@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Carriers gliders and rollers</title>
+  <desc id="desc">Curtain track carriers, gliders, rollers, and hooks.</desc>
+  <rect width="900" height="650" fill="#eef3f5"/>
+  <rect y="472" width="900" height="178" fill="#d1dce1"/>
+  <g transform="translate(106 104)">
+    <rect x="74" y="0" width="548" height="74" rx="15" fill="#f8fbfc" stroke="#7c8d94" stroke-width="8"/>
+    <path d="M118 36h460" stroke="#7c8d94" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+    <g transform="translate(0 98)" fill="#ffffff" stroke="#627179" stroke-width="8">
+      <g>
+        <rect x="70" y="0" width="86" height="84" rx="16"/>
+        <circle cx="113" cy="112" r="30" fill="#7d9198"/>
+        <path d="M113 142v92" stroke="#7d9198" stroke-width="14" stroke-linecap="round"/>
+        <path d="M86 232c18 38 42 58 78 0" fill="none" stroke="#7d9198" stroke-width="14"/>
+      </g>
+      <g transform="translate(170 0)">
+        <rect x="70" y="0" width="86" height="84" rx="16"/>
+        <circle cx="113" cy="112" r="30" fill="#7d9198"/>
+        <path d="M113 142v92" stroke="#7d9198" stroke-width="14" stroke-linecap="round"/>
+        <path d="M86 232c18 38 42 58 78 0" fill="none" stroke="#7d9198" stroke-width="14"/>
+      </g>
+      <g transform="translate(340 0)">
+        <rect x="70" y="0" width="86" height="84" rx="16"/>
+        <circle cx="113" cy="112" r="30" fill="#7d9198"/>
+        <path d="M113 142v92" stroke="#7d9198" stroke-width="14" stroke-linecap="round"/>
+        <path d="M86 232c18 38 42 58 78 0" fill="none" stroke="#7d9198" stroke-width="14"/>
+      </g>
+      <g transform="translate(510 0)">
+        <rect x="70" y="0" width="86" height="84" rx="16"/>
+        <circle cx="113" cy="112" r="30" fill="#7d9198"/>
+        <path d="M113 142v92" stroke="#7d9198" stroke-width="14" stroke-linecap="round"/>
+        <path d="M86 232c18 38 42 58 78 0" fill="none" stroke="#7d9198" stroke-width="14"/>
+      </g>
+    </g>
+  </g>
+</svg>

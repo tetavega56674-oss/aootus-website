@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Curtain rods</title>
+  <desc id="desc">Metal curtain rods with end caps and wall supports.</desc>
+  <rect width="900" height="650" fill="#eef1ee"/>
+  <rect y="468" width="900" height="182" fill="#d7ded9"/>
+  <g transform="translate(76 166)">
+    <g fill="#323b42">
+      <rect x="88" y="50" width="658" height="32" rx="16"/>
+      <circle cx="66" cy="66" r="42"/>
+      <circle cx="768" cy="66" r="42"/>
+    </g>
+    <g fill="#b06d1e">
+      <rect x="184" y="150" width="570" height="24" rx="12"/>
+      <circle cx="166" cy="162" r="31"/>
+      <circle cx="772" cy="162" r="31"/>
+    </g>
+    <g fill="none" stroke="#5b696f" stroke-width="16" stroke-linecap="round">
+      <path d="M210 82v92"/>
+      <path d="M640 82v92"/>
+    </g>
+    <g fill="#6f7f86">
+      <rect x="176" y="190" width="70" height="50" rx="7"/>
+      <rect x="606" y="190" width="70" height="50" rx="7"/>
+    </g>
+  </g>
+</svg>

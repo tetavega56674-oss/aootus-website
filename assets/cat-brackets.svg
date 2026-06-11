@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Brackets and supports</title>
+  <desc id="desc">Wall and ceiling brackets for track and rod systems.</desc>
+  <rect width="900" height="650" fill="#f1f4f5"/>
+  <rect y="470" width="900" height="180" fill="#dce4e7"/>
+  <g transform="translate(155 122)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M52 332V68h132v264" stroke="#323b42" stroke-width="30"/>
+    <path d="M62 78h302c74 0 134 60 134 134v120" stroke="#126c7a" stroke-width="34"/>
+    <path d="M62 332h490" stroke="#323b42" stroke-width="36"/>
+    <path d="M340 214h210" stroke="#b06d1e" stroke-width="28"/>
+    <g stroke="#65757c" stroke-width="16">
+      <circle cx="118" cy="134" r="24"/>
+      <circle cx="118" cy="258" r="24"/>
+      <circle cx="480" cy="274" r="24"/>
+    </g>
+  </g>
+</svg>

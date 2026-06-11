@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Quality inspection</title>
+  <desc id="desc">Measurement tools and inspected curtain track profiles.</desc>
+  <rect width="900" height="650" fill="#eef3f5"/>
+  <rect y="472" width="900" height="178" fill="#d3dde1"/>
+  <g transform="translate(124 122)">
+    <rect x="0" y="256" width="650" height="70" rx="10" fill="#3a454c"/>
+    <rect x="76" y="40" width="520" height="68" rx="13" fill="#fbfdfe" stroke="#71828a" stroke-width="8"/>
+    <path d="M106 72h460" stroke="#71828a" stroke-width="9" stroke-linecap="round" opacity=".4"/>
+    <g fill="none" stroke="#126c7a" stroke-width="18" stroke-linecap="round">
+      <path d="M120 184h286"/>
+      <path d="M120 184v-44"/>
+      <path d="M406 184v-44"/>
+    </g>
+    <circle cx="540" cy="190" r="62" fill="#ffffff" stroke="#66777e" stroke-width="10"/>
+    <path d="M540 190l38-32" stroke="#b06d1e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M500 190h-46" stroke="#66777e" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

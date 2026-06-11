@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Local source image folder. Web-ready images are kept under assets/.
+product images/

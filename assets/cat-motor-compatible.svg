@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Motor-compatible curtain track systems</title>
+  <desc id="desc">Motor-compatible curtain track profile with belt channel and accessory interface.</desc>
+  <rect width="900" height="650" fill="#eef2f4"/>
+  <rect y="470" width="900" height="180" fill="#d7e0e4"/>
+  <g transform="translate(106 154)">
+    <rect x="0" y="44" width="650" height="92" rx="18" fill="#f9fbfc" stroke="#6b7d84" stroke-width="8"/>
+    <path d="M42 74h566M42 108h566" stroke="#6b7d84" stroke-width="9" stroke-linecap="round" opacity=".42"/>
+    <path d="M78 196h520" stroke="#126c7a" stroke-width="32" stroke-linecap="round"/>
+    <path d="M112 196h455" stroke="#f1f5f6" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+    <g transform="translate(570 0)">
+      <rect x="0" y="0" width="146" height="180" rx="22" fill="#323b42"/>
+      <rect x="26" y="38" width="94" height="104" rx="14" fill="#cdd7db"/>
+      <circle cx="73" cy="90" r="25" fill="#126c7a"/>
+    </g>
+    <g fill="#6f8990">
+      <circle cx="180" cy="260" r="28"/>
+      <circle cx="330" cy="260" r="28"/>
+      <circle cx="480" cy="260" r="28"/>
+    </g>
+  </g>
+</svg>

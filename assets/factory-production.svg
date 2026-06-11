@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Factory production line</title>
+  <desc id="desc">Curtain track production line with extrusion tables, cartons, and workers represented as simple forms.</desc>
+  <rect width="1200" height="760" fill="#e8eef0"/>
+  <path d="M0 472h1200v288H0z" fill="#a9b5ba"/>
+  <g opacity=".5" stroke="#ffffff" stroke-width="3">
+    <path d="M80 92h1040M80 178h1040M80 264h1040"/>
+    <path d="M190 60v290M430 60v290M670 60v290M910 60v290"/>
+  </g>
+  <g transform="translate(112 348)">
+    <rect width="760" height="84" rx="9" fill="#34414a"/>
+    <rect x="42" y="-54" width="666" height="44" rx="8" fill="#f6fafb" stroke="#73848c" stroke-width="6"/>
+    <rect x="88" y="104" width="590" height="26" rx="13" fill="#66747b"/>
+    <circle cx="148" cy="154" r="30" fill="#cbd5d9" stroke="#66747b" stroke-width="7"/>
+    <circle cx="598" cy="154" r="30" fill="#cbd5d9" stroke="#66747b" stroke-width="7"/>
+  </g>
+  <g transform="translate(900 314)">
+    <rect x="0" y="104" width="190" height="128" fill="#c8945a"/>
+    <rect x="34" y="0" width="206" height="118" fill="#d8aa74"/>
+    <path d="M34 0h206l-32 34H0z" fill="#e4c08d"/>
+    <path d="M0 104h190l-28 30H28z" fill="#d7a469"/>
+    <path d="M60 62h104M46 170h96" stroke="#875b32" stroke-width="6" opacity=".55"/>
+  </g>
+  <g transform="translate(680 214)">
+    <circle cx="32" cy="32" r="32" fill="#4e705f"/>
+    <path d="M32 64v116" stroke="#4e705f" stroke-width="34" stroke-linecap="round"/>
+    <path d="M12 104h114" stroke="#4e705f" stroke-width="22" stroke-linecap="round"/>
+    <path d="M22 174h-20M42 174h82" stroke="#4e705f" stroke-width="22" stroke-linecap="round"/>
+  </g>
+</svg>

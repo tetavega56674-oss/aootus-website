@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Track profile cross section</title>
+  <desc id="desc">Section view of aluminum track channel and carrier path.</desc>
+  <rect width="900" height="650" fill="#f0f4f5"/>
+  <rect y="470" width="900" height="180" fill="#d8e1e4"/>
+  <g transform="translate(186 102)">
+    <path d="M42 0h430c28 0 52 24 52 52v200c0 28-24 52-52 52H42c-28 0-42-24-32-52l58-164L10 52C0 24 14 0 42 0z" fill="#ffffff" stroke="#6d7d84" stroke-width="12"/>
+    <path d="M120 90h300v100H120z" fill="#dce5e8" stroke="#6d7d84" stroke-width="10"/>
+    <circle cx="270" cy="232" r="58" fill="#126c7a"/>
+    <circle cx="270" cy="232" r="24" fill="#edf4f5"/>
+    <path d="M120 360h330" stroke="#b06d1e" stroke-width="22" stroke-linecap="round"/>
+    <path d="M180 390h210" stroke="#6d7d84" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
