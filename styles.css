@@ -611,7 +611,7 @@ p {
 }
 
 .hospital-hero-media img {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
 }
 

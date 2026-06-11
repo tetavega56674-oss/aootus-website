@@ -7,43 +7,46 @@ Recommended folder in project:
 
 ## Suggested Usage
 
-1. `hospital-track-system-hero-installation.jpg`
-   Main hero image for the top section. Use this real installation scene to avoid large blank margins in the hero frame.
+1. `hospital-track-system-hero-t300.jpg`
+   Current main hero image for the top section. Source size is 1400 x 875 px, ratio 16:10.
 
-2. `hospital-track-system-hero-product.webp`
+2. `hospital-track-system-hero-installation.jpg`
+   Installation scene reference image for the top section or application sections.
+
+3. `hospital-track-system-hero-product.webp`
    Product reference image for component or accessory sections.
 
-3. `hospital-application-ward.jpg` / `hospital-application-treatment-room.jpg` / `hospital-application-blue-curtains.jpg`
+4. `hospital-application-ward.jpg` / `hospital-application-treatment-room.jpg` / `hospital-application-blue-curtains.jpg`
    Current application gallery images with fixed 16:10 crop.
 
-4. `hospital-scene-blue-curtains.webp` / `hospital-scene-room-left.webp` / `hospital-scene-room-right.webp`
+5. `hospital-scene-blue-curtains.webp` / `hospital-scene-room-left.webp` / `hospital-scene-room-right.webp`
    Application gallery: hospitals, treatment rooms, cubicle curtain projects.
 
-5. `hospital-curved-track-detail.webp`
+6. `hospital-curved-track-detail.webp`
    Curved / bendable track detail.
 
-6. `hospital-track-cross-section.webp`
+7. `hospital-track-cross-section.webp`
    Track profile and dimension detail section.
 
-7. `hospital-runner-options.webp`
+8. `hospital-runner-options.webp`
    Carrier / runner options section.
 
-8. `hospital-end-cap-options.webp` and `hospital-positioning-plate-detail.webp`
+9. `hospital-end-cap-options.webp` and `hospital-positioning-plate-detail.webp`
    End cap and positioning component detail.
 
-9. `hospital-suspension-rod-assembly.webp` and `hospital-suspension-rod-details.webp`
+10. `hospital-suspension-rod-assembly.webp` and `hospital-suspension-rod-details.webp`
    Suspension rod / hanging installation section.
 
-10. `hospital-connector-options.webp`
+11. `hospital-connector-options.webp`
    Straight, T-shape, and curved connector options.
 
-11. `hospital-install-methods.webp`
+12. `hospital-install-methods.webp`
    Ceiling mounted and suspension mounted installation methods.
 
-12. `hospital-layout-options.webp`
+13. `hospital-layout-options.webp`
    L-shape, U-shape, E-shape and combination layout examples.
 
-13. `hospital-accessory-table.webp`
+14. `hospital-accessory-table.webp`
    Accessory table. This contains Chinese text, so it is better used as a temporary reference or replaced by an English HTML table later.
 
 ## Important Notes
