@@ -38,7 +38,7 @@ Recommended folder in project:
    Suspension rod / hanging installation section.
 
 11. `hospital-connector-options.webp`
-   Straight, T-shape, and curved connector options.
+   Straight, T-shape, and multi-purpose connector options. The Hospital page reuses this source image in three cropped connector cards.
 
 12. `hospital-install-methods.webp`
    Ceiling mounted and suspension mounted installation methods.
