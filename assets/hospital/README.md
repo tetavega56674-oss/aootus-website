@@ -7,37 +7,43 @@ Recommended folder in project:
 
 ## Suggested Usage
 
-1. `hospital-track-system-hero-product.webp`  
-   Product hero image for the top section.
+1. `hospital-track-system-hero-installation.jpg`  
+   Main hero image for the top section. Use this real installation scene to avoid large blank margins in the hero frame.
 
-2. `hospital-scene-blue-curtains.webp` / `hospital-scene-room-left.webp` / `hospital-scene-room-right.webp`  
+2. `hospital-track-system-hero-product.webp`  
+   Product reference image for component or accessory sections.
+
+3. `hospital-application-ward.jpg` / `hospital-application-treatment-room.jpg` / `hospital-application-blue-curtains.jpg`  
+   Current application gallery images with fixed 16:10 crop.
+
+4. `hospital-scene-blue-curtains.webp` / `hospital-scene-room-left.webp` / `hospital-scene-room-right.webp`  
    Application gallery: hospitals, treatment rooms, cubicle curtain projects.
 
-3. `hospital-curved-track-detail.webp`  
+5. `hospital-curved-track-detail.webp`  
    Curved / bendable track detail.
 
-4. `hospital-track-cross-section.webp`  
+6. `hospital-track-cross-section.webp`  
    Track profile and dimension detail section.
 
-5. `hospital-runner-options.webp`  
+7. `hospital-runner-options.webp`  
    Carrier / runner options section.
 
-6. `hospital-end-cap-options.webp` and `hospital-positioning-plate-detail.webp`  
+8. `hospital-end-cap-options.webp` and `hospital-positioning-plate-detail.webp`  
    End cap and positioning component detail.
 
-7. `hospital-suspension-rod-assembly.webp` and `hospital-suspension-rod-details.webp`  
+9. `hospital-suspension-rod-assembly.webp` and `hospital-suspension-rod-details.webp`  
    Suspension rod / hanging installation section.
 
-8. `hospital-connector-options.webp`  
+10. `hospital-connector-options.webp`  
    Straight, T-shape, and curved connector options.
 
-9. `hospital-install-methods.webp`  
+11. `hospital-install-methods.webp`  
    Ceiling mounted and suspension mounted installation methods.
 
-10. `hospital-layout-options.webp`  
+12. `hospital-layout-options.webp`  
    L-shape, U-shape, E-shape and combination layout examples.
 
-11. `hospital-accessory-table.webp`  
+13. `hospital-accessory-table.webp`  
    Accessory table. This contains Chinese text, so it is better used as a temporary reference or replaced by an English HTML table later.
 
 ## Important Notes
