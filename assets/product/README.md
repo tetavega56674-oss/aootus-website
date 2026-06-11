@@ -46,6 +46,7 @@ When better project photos are available, replace these files with the same `140
 - `systems/hospital-curtain-track-system.jpg`: Hospital Curtain Track System
 - `systems/ceiling-mount-track-system.jpg`: Ceiling Mount Track
 - `systems/motor-ready-curtain-track-system.jpg`: Motor-Ready Curtain Track
+- `systems/sliding-screen-window-system.jpg`: Sliding Screen Window / Sliding Folding Curtain
 
 When replacing a featured system image, keep the same file name so the Home page updates without changing HTML.
 
