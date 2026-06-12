@@ -43,10 +43,10 @@ Recommended folder in project:
    - `hospital-suspension-rod-details.webp`
    - `hospital-connector-options.webp`
 
-8. `hospital-install-methods.webp`
+8. `hospital-installation-methods-layout.jpg`
    Ceiling mounted and suspension mounted installation methods.
 
-9. `hospital-layout-options.webp`
+9. `hospital-layout-options-floor-plan.jpg`
    L-shape, U-shape, E-shape and combination layout examples.
 
 10. `hospital-accessory-table.webp`
