@@ -8,6 +8,51 @@ if (menuButton && navLinks) {
   });
 }
 
+const accessoryCards = Array.from(document.querySelectorAll(".accessory-card"));
+
+function positionAccessoryDetails(card) {
+  card.classList.remove("is-open-left", "is-open-right");
+
+  if (!window.matchMedia("(min-width: 1081px)").matches) return;
+
+  const cardRect = card.getBoundingClientRect();
+  const panelWidth = 240;
+  const viewportPadding = 18;
+  const center = cardRect.left + cardRect.width / 2;
+
+  if (center - panelWidth / 2 < viewportPadding) {
+    card.classList.add("is-open-right");
+  } else if (center + panelWidth / 2 > window.innerWidth - viewportPadding) {
+    card.classList.add("is-open-left");
+  }
+}
+
+if (accessoryCards.length) {
+  accessoryCards.forEach((card) => {
+    card.addEventListener("toggle", () => {
+      if (!card.open) {
+        card.classList.remove("is-open-left", "is-open-right");
+        return;
+      }
+
+      accessoryCards.forEach((otherCard) => {
+        if (otherCard !== card) {
+          otherCard.open = false;
+          otherCard.classList.remove("is-open-left", "is-open-right");
+        }
+      });
+
+      positionAccessoryDetails(card);
+    });
+  });
+
+  window.addEventListener("resize", () => {
+    accessoryCards.forEach((card) => {
+      if (card.open) positionAccessoryDetails(card);
+    });
+  });
+}
+
 document.querySelectorAll("form[data-inquiry-form]").forEach((form) => {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
