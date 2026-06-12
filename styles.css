@@ -747,17 +747,30 @@ p {
 }
 
 .accessory-card summary::after {
-  content: "";
-  width: 24px;
-  height: 3px;
+  content: "View details";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-width: 78px;
+  min-height: 18px;
   margin: 0 auto;
-  background: #fdba74;
+  padding: 3px 8px;
+  color: var(--accent);
+  background: #ffedd5;
   border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
   opacity: 0.7;
 }
 
 .accessory-card[open] summary::after {
+  content: "Hide details";
   background: var(--accent);
+  color: var(--paper);
   opacity: 1;
 }
 
