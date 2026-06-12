@@ -678,8 +678,8 @@ p {
 
 .accessory-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.82fr) minmax(340px, 1.18fr);
-  gap: 42px;
+  grid-template-columns: minmax(0, 0.78fr) minmax(520px, 1.22fr);
+  gap: 28px;
   align-items: start;
 }
 
@@ -698,26 +698,19 @@ p {
   font-size: 14px;
 }
 
-.accessory-intro {
-  align-items: end;
-}
-
-.accessory-intro .actions {
-  justify-content: flex-end;
-  margin-top: 0;
+.accessory-panel {
+  min-width: 0;
 }
 
 .accessory-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+  gap: 12px;
+  align-items: start;
 }
 
 .accessory-card {
-  display: flex;
-  flex-direction: column;
   min-width: 0;
-  min-height: 100%;
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -732,35 +725,67 @@ p {
   box-shadow: var(--shadow);
 }
 
+.accessory-card[open] {
+  border-color: #fdba74;
+  box-shadow: 0 14px 28px rgba(234, 88, 12, 0.12);
+}
+
+.accessory-card summary {
+  display: grid;
+  gap: 8px;
+  padding: 8px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.accessory-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.accessory-card summary::after {
+  content: "";
+  width: 24px;
+  height: 3px;
+  margin: 0 auto;
+  background: #fdba74;
+  border-radius: 999px;
+  opacity: 0.7;
+}
+
+.accessory-card[open] summary::after {
+  background: var(--accent);
+  opacity: 1;
+}
+
 .accessory-card img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
-  padding: 10px;
+  padding: 8px;
   background: #fff;
-  border-bottom: 1px solid var(--line);
+  border: 1px solid var(--line);
+  border-radius: 6px;
 }
 
-.accessory-card__body {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 16px;
-}
-
-.accessory-card__body h3 {
-  font-size: 18px;
+.accessory-card__name {
+  display: block;
+  min-height: 34px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
   line-height: 1.25;
+  text-align: center;
 }
 
 .accessory-specs {
   display: grid;
-  grid-template-columns: 76px minmax(0, 1fr);
-  gap: 7px 10px;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 4px 8px;
   margin: 0;
+  padding: 0 10px 12px;
   color: var(--muted);
-  font-size: 14px;
-  line-height: 1.45;
+  font-size: 12px;
+  line-height: 1.35;
 }
 
 .accessory-specs dt {
@@ -1226,10 +1251,6 @@ textarea:focus {
   .section-header {
     display: grid;
     align-items: start;
-  }
-
-  .accessory-intro .actions {
-    justify-content: flex-start;
   }
 
   .grid--3,
