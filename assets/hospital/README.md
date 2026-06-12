@@ -50,7 +50,7 @@ Recommended folder in project:
    L-shape, U-shape, E-shape and combination layout examples.
 
 10. Accessory package cards
-   The Hospital page now uses compact expandable HTML cards for approximately 24 accessories, with name, material, color, and description fields. Current card images reuse the available product detail images until individual accessory photos are provided.
+   The Hospital page now uses compact expandable HTML cards for 24 accessories, with name, material, color, and description fields. Accessory card images are stored in `assets/hospital/accessories/` and use 800 x 600 px, ratio 4:3.
 
 11. `hospital-accessory-table.webp`
    Legacy accessory table kept as a backup reference. It contains Chinese text, so it should not be used as the main English B2B display.
