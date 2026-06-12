@@ -49,8 +49,11 @@ Recommended folder in project:
 9. `hospital-layout-options-floor-plan.jpg`
    L-shape, U-shape, E-shape and combination layout examples.
 
-10. `hospital-accessory-table.webp`
-   Accessory table. This contains Chinese text, so it is better used as a temporary reference or replaced by an English HTML table later.
+10. Accessory package cards
+   The Hospital page now uses HTML cards for approximately 20 accessories, with name, material, color, and description fields. Current card images reuse the available product detail images until individual accessory photos are provided.
+
+11. `hospital-accessory-table.webp`
+   Legacy accessory table kept as a backup reference. It contains Chinese text, so it should not be used as the main English B2B display.
 
 ## Important Notes
 

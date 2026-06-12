@@ -698,6 +698,81 @@ p {
   font-size: 14px;
 }
 
+.accessory-intro {
+  align-items: end;
+}
+
+.accessory-intro .actions {
+  justify-content: flex-end;
+  margin-top: 0;
+}
+
+.accessory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.accessory-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 100%;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.accessory-card:hover,
+.accessory-card:focus-within {
+  transform: translateY(-2px);
+  border-color: #fdba74;
+  box-shadow: var(--shadow);
+}
+
+.accessory-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.accessory-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.accessory-card__body h3 {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.accessory-specs {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 7px 10px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.accessory-specs dt {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.accessory-specs dd {
+  min-width: 0;
+  margin: 0;
+}
+
 .quote-card {
   margin-top: 16px;
   padding: 22px;
@@ -1080,6 +1155,10 @@ textarea:focus {
   .process-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .accessory-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 820px) {
@@ -1149,13 +1228,18 @@ textarea:focus {
     align-items: start;
   }
 
+  .accessory-intro .actions {
+    justify-content: flex-start;
+  }
+
   .grid--3,
   .resource-grid,
   .feature-list,
   .app-grid,
   .process-grid,
   .image-grid--3,
-  .component-grid {
+  .component-grid,
+  .accessory-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1195,6 +1279,7 @@ textarea:focus {
   .process-grid,
   .image-grid--3,
   .component-grid,
+  .accessory-grid,
   .check-grid,
   .stats,
   .form-grid,
