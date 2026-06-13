@@ -469,6 +469,17 @@ p {
   font-weight: 700;
 }
 
+.card-link-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 16px;
+}
+
+.card-link-group .card-link {
+  margin-top: 0;
+}
+
 .feature-bullets a {
   color: var(--accent-dark);
   font-weight: 700;
@@ -597,12 +608,14 @@ p {
   align-items: center;
 }
 
-.hospital-product-hero {
+.hospital-product-hero,
+.product-detail-hero {
   padding-top: 60px;
   padding-bottom: 48px;
 }
 
 .hospital-hero-media img,
+.product-detail-media img,
 .image-card img,
 .reference-image img {
   border: 1px solid var(--line);
@@ -610,9 +623,14 @@ p {
   background: var(--panel);
 }
 
-.hospital-hero-media img {
+.hospital-hero-media img,
+.product-detail-media img {
   aspect-ratio: 16 / 10;
   object-fit: cover;
+}
+
+.product-detail-hero .detail-layout {
+  align-items: center;
 }
 
 .image-grid,
