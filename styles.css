@@ -669,6 +669,17 @@ p {
   box-shadow: var(--shadow);
 }
 
+#direct-ceiling-mount,
+#suspension-rod-mount {
+  scroll-margin-top: 110px;
+}
+
+#direct-ceiling-mount:target,
+#suspension-rod-mount:target {
+  border-color: #fdba74;
+  box-shadow: var(--shadow);
+}
+
 .image-card img {
   width: 100%;
   aspect-ratio: 4 / 3;
