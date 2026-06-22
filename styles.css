@@ -701,14 +701,64 @@ p {
   color: var(--muted);
 }
 
-.curtain-system-card h4 {
-  margin-top: 22px;
-  font-size: 15px;
+.curtain-compare-media {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: var(--panel);
+}
+
+.curtain-compare-media > div {
+  position: relative;
+  min-width: 0;
+}
+
+.curtain-compare-media > div + div {
+  border-left: 1px solid var(--line);
+}
+
+.image-grid--2 .curtain-compare-media img {
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 0;
+  border-radius: 0;
+}
+
+.curtain-compare-media span {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 6px 9px;
+  color: var(--paper);
+  background: rgba(31, 41, 55, 0.86);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.curtain-type-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 20px;
+}
+
+.curtain-type-block {
+  min-width: 0;
+}
+
+.curtain-type-block + .curtain-type-block {
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+}
+
+.curtain-type-block h4 {
+  font-size: 16px;
 }
 
 .system-parts-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 10px 18px;
   margin-top: 14px;
 }
@@ -1419,6 +1469,17 @@ textarea:focus {
 
   .system-parts-list {
     grid-template-columns: 1fr;
+  }
+
+  .curtain-type-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .curtain-type-block + .curtain-type-block {
+    padding-top: 20px;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 
   .image-card--wide {
